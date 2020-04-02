@@ -5,62 +5,40 @@ public class Corso {
 	private Integer crediti;
 	private String nome;
 	private Integer pd;
-	
-	
 	public Corso(String codins, Integer crediti, String nome, Integer pd) {
 		this.codins = codins;
 		this.crediti = crediti;
 		this.nome = nome;
 		this.pd = pd;
 	}
-
-
 	public String getCodins() {
 		return codins;
 	}
-
-
 	public void setCodins(String codins) {
 		this.codins = codins;
 	}
-
-
-	public Integer getCrediti() {
+	public int getCrediti() {
 		return crediti;
 	}
-
-
-	public void setCrediti(Integer crediti) {
+	public void setCrediti(int crediti) {
 		this.crediti = crediti;
 	}
-
-
 	public String getNome() {
 		return nome;
 	}
-
-
 	public void setNome(String nome) {
 		this.nome = nome;
 	}
-
-
-	public Integer getPd() {
+	public int getPd() {
 		return pd;
 	}
-
-
-	public void setPd(Integer pd) {
+	public void setPd(int pd) {
 		this.pd = pd;
 	}
-
-
 	@Override
 	public String toString() {
 		return "Corso [codins=" + codins + ", crediti=" + crediti + ", nome=" + nome + ", pd=" + pd + "]";
 	}
-
-
 	@Override
 	public int hashCode() {
 		final int prime = 31;
@@ -68,8 +46,6 @@ public class Corso {
 		result = prime * result + ((codins == null) ? 0 : codins.hashCode());
 		return result;
 	}
-
-
 	@Override
 	public boolean equals(Object obj) {
 		if (this == obj)
@@ -87,7 +63,6 @@ public class Corso {
 		return true;
 	}
 	
-	
-	
-	
+
+
 }
